@@ -1,0 +1,124 @@
+header {
+  width: screen;
+  height: 54px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-inside {
+  height: 54px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo {
+  height: 40px;
+  width: 14%;
+  margin-right: 40px;
+}
+.header-input-and-button {
+  height: 44px;
+  width: 68%;
+  display: flex;
+  border-radius: 10px;
+}
+.input-header {
+  height: 42px;
+  width: 94%;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: rgb(235, 235, 235);
+}
+.header-input-button {
+  height: 42px;
+  width: 6%;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: rgb(235, 235, 235);
+}
+.search-button {
+  height: 23px;
+  width: 23px;
+}
+.account-icon {
+  height: 25px;
+  width: 25px;
+}
+.header-account-para {
+  padding: 0;
+  margin: 0;
+  color:#f15a22;
+  font-size: 15px;
+}
+.header-account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-shop-icon {
+  height: 35px;
+  width: 35px;
+}
+.shop-div {
+  position: relative;
+  height: 47px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-count {
+  background-color: #fdb813;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 11px;
+  color: white;
+  font-weight:700;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.first-line {
+  height: 1px;
+  width: screen;
+  background-color: rgb(235, 235, 235);
+}
+.navbar {
+  height: 37.5px;
+  width: screen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inside-navbar {
+  height: 37.5px;
+  width: 60%;
+  display: flex;
+}
+.second-line {
+  height: 1px;
+  width: screen;
+  background-color: rgb(235, 235, 235);
+}
+.navbar-titles {
+  font-size: 15px;
+  color: #666666;
+  font-weight: 700;
+  margin: 0;
+}
+.navbar-div {
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
